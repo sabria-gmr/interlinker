@@ -1,0 +1,271 @@
+body {  font-family: "poppins", sans-serif;
+    margin-left: 150px;  background-color: hsl(229, 24%, 87%);}
+  
+  
+  .containers { 
+    display: flex; 
+    background-color: white;
+    margin-top: 3%; 
+    margin-bottom: 1%;
+    margin-left: 5%;  margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(47, 18, 18, 0.101);
+    width: 1000px;  
+    height: 680px;
+  }
+  
+  .cv-image {
+    width: 300px;
+    height: 480px;
+    border-top-right-radius: 10px; 
+    margin-top: 50px;
+    margin-left: 65px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
+  }
+  
+      .displaySteps {  
+     
+      display: flex;   
+      justify-content: center;
+      width: full;    height: 550px;
+      background-color: rgba(30, 16, 186, 0);
+      border-radius: 10px;
+    
+    }
+    .circle_entreprise2 {  
+      position: relative;
+      background-color: rgba(220, 20, 60, 0);
+      width: 20%;  
+      color: white; 
+      font-weight: 500;  
+      height: 50%;
+      margin-top: 7%;
+      margin-left: -35%;
+      display: flex;  flex-direction: column; 
+      align-items: center;
+      
+    }
+    .circle_entreprise2 p {  margin-top: 8px;}
+   
+    .circle_entreprise2 .circle12 {  
+      display: flex;
+      width: 40px;  height: 40px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      border-radius: 20px;
+      background-color: rgb(0, 0,0, 0);
+      border: solid 1px white;  display: flex;
+      justify-content: center;  color:white;
+    }
+    .circle_entreprise2 .circle22 {  
+      width: 40px;  height: 40px;
+      margin-top: 0px;
+      border-radius: 20px;  background-color: white;
+      border: solid 1px white;  display: flex;
+      justify-content: center;color: black;
+    }
+
+    .steps_entreprise {  
+      position: relative;
+      background-color: rgba(255, 255, 0, 0);
+      background:RED;
+      display: flex;  
+      flex-direction: column;
+      justify-content:space-between; 
+      width: 25%;
+      height: 21%;  
+      margin-top: 90px;
+      margin-left: -7%;
+      font-size: 16px;
+    }
+    
+
+    .step1_entreprise {  
+        
+      position: relative;
+      width: 100%; 
+      margin-left: 0px;
+      margin-top: 3px;
+      padding-bottom: 2px;
+      /* background-color: rebeccapurple; */
+      background-color: rgba(156, 55, 55, 0);
+     
+    }
+    .step2_entreprise {  
+        
+        position: relative;
+        width: 100%; 
+        margin-left: 0px;
+        margin-top: 4px;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        /* background-color: rebeccapurple; */
+        background-color: rgba(156, 55, 55, 0);
+       
+      }
+
+    .steps_entreprise p {  
+      width: 50px;
+      margin-bottom: 2px;
+      margin-top: 5px;
+      text-align: left;
+      font-size: 14px;
+      color: hsl(0, 0%, 80%);
+      
+    }
+    
+    .Span_entreprise { 
+        display: flex;
+        color: white;
+        text-align: left;
+     
+       
+    }
+    .Span2_entreprise { 
+      
+        display: flex;
+        color: white;
+        text-align: left;
+       
+    }
+    
+  
+  
+    .stepContainers {
+      width: 55%;  height: 580px;
+      margin-top: auto;  margin-left: auto;
+      margin-right: auto;  margin-bottom: auto;
+  
+    }
+    .affichStep_entreprise2 {
+      /* background: red; */
+      display: flex;
+      flex-direction: column; /* Stack children vertically */
+      justify-content: center; /* Center vertically */
+      align-items: center;
+      width: 500px;
+      height: 520px; /* Set a fixed height if needed */
+      margin-top: 5%;
+      margin-left: 30px;
+     
+    }
+    
+    .stepInfo_entreprise2 {    display: flex;    flex-direction: column;  }
+  
+    .stepInfo_entreprise2 h2 {  
+    display: flex;
+    /* background: gray;  */
+    margin-top: 40px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #2C3484; 
+    letter-spacing: 1px; }
+   
+    .stepInfo_entreprise2 input {
+      display: flex;
+      width: 480px;
+      height: 40px;
+      margin-left: 10px;
+      padding: 8px;
+      margin-top: 1px;
+      margin-bottom: 5px;
+      box-sizing: border-box;
+      background: #f4f8f7;
+      border-radius: 8px;
+      border: solid 1px #f4f8f7; /* Remove input border */
+      outline: none; /* Remove input focus outline */
+    }
+    
+    .stepInfo_entreprise2 .error {
+      border: 1px solid red;
+    }
+  
+   .stepInfo_entreprise2 label{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+    
+    
+  .stepInfo_entreprise2 select  {
+    font-family: 'poppins';
+    height: 40px;
+    width: 480px;
+    margin-left: 9px;
+    border: solid 1px #f4f8f7;
+    outline: none;
+    margin-bottom: 5px;
+    background: #f4f8f7;
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 8px;
+  }
+
+  .affichStep_entreprise2 .cv textarea {
+    width: 100%;
+    padding: 8px;
+    margin-left: 8px;
+    
+    box-sizing: border-box;
+    background: #f4f8f7;
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .affichStep_entreprise2 .cv textarea:focus {
+    border: 1px solid rgba(44, 52, 132, 1); /* Change the color as needed */
+    outline: none;
+  }
+  .buttonContainerEnt2{  display: flex;
+    justify-content: space-between ;
+    flex-direction: row;
+    /* background-color:aqua; */
+    margin-top: 100px;
+    margin-left: 12px;
+    margin-right: -8px;
+    /* background-color: rgba(0, 255, 51, 0); */
+  }
+  .nextStep {  
+    width: 130px;
+    height: 40px;
+    padding: 10px 10px 10px;
+    margin-top: 0px;
+    margin-left: -20px;
+    align-items: center;
+    border: none;
+    border-radius: 36px;
+    background-color: rgba(44, 52, 132, 1); /* Button background color */
+    color: white;
+    cursor: pointer;
+    font-size: 14px; /* Adjust the font size as needed */
+    font-weight: bold; /* Add font weight if desired */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    transition: background-color 0.3s;
+    }
+  .nextStep:hover {  background-color: #0f1766;}
+
+    
+ .goBack{  border: none;  cursor: pointer;
+    width: 130px;
+    height: 40px;
+    padding: 10px 10px 10px;
+    margin-top: 0px;
+    align-items: center;
+    background-color: rgba(44, 52, 132, 1);;
+    border: none;
+    border-radius: 36px;
+    font-size: 14px; /* Adjust the font size as needed */
+    font-weight: 550; /* Add font weight if desired */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 1.5px; /* Adjust letter spacing */
+    transition: background-color 0.3s;}
+     
+    .goBack:hover {  background-color: #0f1766;}
