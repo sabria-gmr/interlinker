@@ -1,0 +1,278 @@
+/* Signup.css */
+* {
+  font-family: 'Poppins', sans-serif;
+ 
+  
+}
+body {
+  background-color: #ffffff; /* Set the background color to white */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.signup-container {
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  width: 750px;
+  height: 390px;
+  max-width: 100%;
+  margin-top: 5%;
+  min-height: 500px;
+  display: flex; /* Use flexbox for layout */
+  position: relative
+}
+
+.signup-content {
+  flex-grow: 1; /* Allow the content to take up remaining space */
+  padding-top: 8px;
+  padding-left: 0px; 
+  margin-left: 0px;
+  position: relative;
+  
+}
+
+/* Signup Image */
+.signup-image {
+  width: auto;
+  height: 420px;
+  border-top-right-radius: 8px; /* Apply border-radius to match container */
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+/* Additional styles for responsiveness or other adjustments */
+@media (max-width: 768px) {
+  .signup-container {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  .signup-image {
+    max-width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+    margin: 0px; /* Adjust margin for better alignment on smaller screens */
+  }
+}
+
+.images-overlay {
+  position: relative;
+  display: flex;
+}
+
+.images-captions {
+  position: absolute;
+  top: 38%;
+  left: 130px;
+  transform: translate(-160%, -50%);
+  color: #fff; /* Adjust the text color as needed */
+  
+}
+
+.welcome-to h3 {
+  text-align: center;
+  margin-left: -10px;
+  font-size: 19px; /* Adjust font size for 'Welcome Back!' */
+  font-weight: bold; /* Make it semi-bold */
+}
+
+.images-sub {
+  position: absolute;
+  width: 200px;
+  right: 245px;
+  top: 105px;
+  transform: translate(-120%, 100%);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8); /* Adjust the text color as needed */
+}
+
+.subs-heading h6 {
+  margin-top: 18px;
+  font-size: 11px; /* Adjust font size for 'Welcome Back!' */
+  letter-spacing: 0.32px;
+  line-height: 17px;
+  font-style: italic;
+}
+
+.images-but {
+  position: absolute;
+  top: 57%;
+  bottom: 30%;
+  transform: translate(-132%, -20%);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9); /* Adjust the text color as needed */
+}
+
+.signin-button {
+  width: 130px;
+  padding: 10px 10px 10px;
+  margin-left: 85px;
+  margin-top: 10px;
+  border: 3px solid white;
+  border-radius: 36px;
+  background-color: rgba(44, 52, 132, 0); /* Button background color */
+  color: white;
+  cursor: pointer;
+  font-size: 14px; /* Adjust the font size as needed */
+  font-weight: 500; /* Add font weight if desired */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 3px; /* Adjust letter spacing */
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.signin-button:hover {
+  background-color: #0f1766;
+}
+.signin-button a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.signup-container h2 {
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align:center;
+  color: #2c3484;
+}
+
+.signup-container h5 {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  padding-right: 10px;
+  text-align: center;
+  color: #50989c;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+.but1 button[type="submit"] {
+  width: 130px;
+  padding: 10px 10px 10px;
+  margin-top: 65px;
+  align-items: center;
+  border: none;
+  border-radius: 36px;
+  background-color: rgba(44, 52, 132, 1); /* Button background color */
+  color: white;
+  cursor: pointer;
+  font-size: 14px; /* Adjust the font size as needed */
+  font-weight: 600; /* Add font weight if desired */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 3px; /* Adjust letter spacing */
+  transition: background-color 0.3s;
+}
+
+.but1 button[type="submit"]:hover {
+  background-color: #0f1766; /* Change background color on hover */
+}
+
+.inputts {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-right: 65px;
+  align-items: center;
+}
+
+.inputt {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  padding: 10px;
+  width: 270px;
+  height: 20px;
+  border: 1px solid #f4f8f7;
+  border-radius: 8px;
+  background: #f4f8f7;
+}
+
+.inputts img {
+  margin: 0px 15px 2px 0px;
+  opacity: 0.3;
+}
+
+.inputt input {
+  height: 20px;
+  width: 200px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.inputt select{
+  height: 20px;
+  width: 200px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 13px;
+}
+
+/* Style the dropdown container */
+.custom-dropdown {
+  position: relative;
+  display: flex;
+  
+}
+
+/* Style the dropdown arrow */
+.custom-dropdown select::after {
+  content: '\25BC'; /* Unicode character for a downward arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/* Style the options */
+.custom-dropdown option {
+  background-color: #ffffff;
+  color: #2C3484;
+}
+
+/* Style the selected option */
+.custom-dropdown option:checked {
+  background-color: #2C3484;
+  color: #ffffff;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  /* Center items horizontally and vertically */
+}
+
+.social-buttons button {
+  border: none;
+  border: 3px solid rgba(153, 158, 157, 0.5);
+  border-radius: 50%; /* Make the buttons circular */
+  cursor: pointer;
+  background-color: #fff; /* Button background color */
+}

@@ -1,0 +1,16 @@
+{
+    "skills": [
+      "Java", "Python", "C++", "JavaScript", "HTML", "CSS", "React", "Angular", "Node.js", "Django", "SQL", "MongoDB",
+      "Linux/Unix", "Windows Server",
+      "TCP/IP", "routage", "commutation", "firewalls", "VPN", "IDS/IPS",
+      "Cryptographie", "Tests d'intrusion", "Gestion des vulnérabilités", "ISO 27001", "PCI DSS",
+      "AWS", "Azure", "GCP", "Conception d'architectures cloud", "Gestion des ressources cloud",
+      "Hadoop", "Spark", "NoSQL (MongoDB, Cassandra)",
+      "TensorFlow", "PyTorch", "Algorithmes d'apprentissage automatique", "NLP", "Vision par ordinateur",
+      "CI/CD", "Jenkins", "Docker", "Kubernetes", "Ansible", "Puppet", "Chef",
+      "Shell scripting (Bash, PowerShell)", "Automatisation de tâches",
+      "Conception de bases de données relationnelles", "Langage SQL",
+      "PHP", "Swift", "Kotlin", "Go", "Rust"
+    ]
+  }
+  

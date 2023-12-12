@@ -1,0 +1,263 @@
+body {  font-family: "poppins", sans-serif;
+  margin-left: 150px;  background-color: hsl(229, 24%, 87%);}
+
+
+
+
+.cv-image {
+  width: 300px;
+  height: 480px;
+  border-top-right-radius: 10px; 
+  margin-top: 50px;
+  margin-left: 65px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  
+}
+
+  
+  .displayStep {  
+   
+    display: flex;   
+    justify-content: center;
+    width: full;    height: 550px;
+    background-color: rgba(30, 16, 186, 0);
+    border-radius: 10px;
+  
+  }
+  .circles_enseignant {  
+    position: relative;
+    background-color: rgba(220, 20, 60, 0);
+    width: 20%;  
+    color: white; 
+    font-weight: 500;  
+    height: 50%;
+    margin-top: 8%;
+    margin-left: -35%;
+    display: flex;  flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    
+  }
+  .circles_enseignant p {  margin-top: 8px;}
+  .circles_enseignant .circles1 { 
+    width: 40px;  height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px white;  display: flex;
+    justify-content: center;  color: black;
+  }
+  .circles_enseignant .circles2 {  width: 40px;  height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;  background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;  display: flex;
+    justify-content: center;
+  }
+  .circles_enseignant .circles3 {  width: 40px;  height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;  display: flex;
+    justify-content: center;
+  }
+  
+
+  .Enseignant_steps {  
+    position: relative;
+    background-color: rgba(255, 255, 0, 0);
+    /* background: red; */
+    display: flex;  
+    flex-direction: column;
+    justify-content:space-between; 
+    width: 25%;
+    height: 50%;  
+    margin-top: 100px;
+    margin-left: -7%;
+    font-size: 16px;
+
+    
+    
+  }
+  
+ .Enseignant_steps .step2 {  
+    position: relative; 
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 2px;
+    background-color: rgba(156, 55, 55, 0);
+   
+  }
+  .Enseignant_steps .step3 {  
+      position:relative; 
+      width: 100%;
+      margin-left: 0px;
+      margin-top:0px;
+      padding-bottom: 8px;
+      background-color: rgba(156, 55, 55, 0);
+     
+    }
+  .Enseignant_steps .step4 {  
+    position: relative; 
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    background-color: rgba(156, 55, 55, 0);
+   
+    }
+  
+  .Enseignant_steps p { 
+    width: 50px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 14px;
+    color: hsl(0, 0%, 80%);
+    
+  }
+  
+  .Enseignant_steps .SpanE1 { 
+     display: flex;
+     color: white;
+     text-align: left;
+     
+     
+  }
+  .Enseignant_steps .SpanE2 { 
+     display: flex;
+     color: white;
+     text-align: left;
+  }
+  .Enseignant_steps .SpanE3 { 
+    display: flex;
+    color: white;
+    text-align: left;
+    
+   
+  }
+.stepContainer {
+      width: 55%;  height: 580px;
+      margin-top: auto;  margin-left: auto;
+      margin-right: auto;  margin-bottom: auto;
+  
+    }
+    .affichEns2 {
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center;
+    width: 500px;
+    height: 540px; /* Set a fixed height if needed */
+    margin-top: 5%;
+    margin-left: 30px;
+    }
+    
+    .affichEns2 .stepInfo {    display: flex;    flex-direction: column;  }
+  
+    .affichEns2 .stepInfo h2 {   
+      display: flex;
+      /* background: gray;  */
+      margin-top: 10px;
+      margin-left: 5px;
+      font-weight: bold;
+      color: #2C3484; 
+      letter-spacing: 1px; 
+     
+    }
+
+    .affichEns2 .stepInfo .error {
+      border: 1px solid red;
+    } 
+   
+    .affichEns2 .stepInfo input {
+      display: flex;
+      width: 480px;
+      height: 40px;
+      margin-left: 10px;
+      padding: 8px;
+      margin-top: 1px;
+      color: #333;
+      margin-bottom: 8px;
+      box-sizing: border-box;
+      background: #f4f8f7;
+      border-radius: 8px;
+      border: solid 1px #f4f8f7; /* Remove input border */
+      outline: none;
+    }
+    
+    
+    .affichEns2 .stepInfo select  {
+      display: flex;
+      height: 40px;
+      width: 480px;
+      margin-left: 10px;
+      border: none;
+      outline: none;
+      background: #f4f8f7;
+      color: #333;
+      font-size: 13px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+    .affichEns2 .stepInfo label{
+      display: flex;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      margin-left: 10px;
+      margin-top: 5px;
+  }
+ 
+  
+    
+ 
+  
+    .buttonContainerEns2 { 
+      position: relative;
+      display: flex;
+      justify-content: space-between !important;
+      flex-direction: row;
+      /* background: red; */
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 62px;
+      height: 40px;}
+  
+    .nextStep {  
+      width: 130px;
+      padding: 10px 10px 10px;
+      margin-top: 0px;
+      align-items: center;
+      border: none;
+      border-radius: 36px;
+      background-color: rgba(44, 52, 132, 1); /* Button background color */
+      color: white;
+      cursor: pointer;
+      font-size: 14px; /* Adjust the font size as needed */
+      font-weight: bold; /* Add font weight if desired */
+      text-transform: uppercase; /* Convert text to uppercase */
+      letter-spacing: 1px; /* Adjust letter spacing */
+      transition: background-color 0.3s;
+      }
+      .nextStep:hover {  background-color: #0f1766;}
+  
+  .goBack { 
+    width: 130px;
+    padding: 10px 10px 10px;
+    margin-top: 0px;
+    align-items: center;
+    border: none;
+    border-radius: 36px;
+    background-color: rgba(44, 52, 132, 1); /* Button background color */
+    color: white;
+    cursor: pointer;
+    font-size: 14px; /* Adjust the font size as needed */
+    font-weight: 550; /* Add font weight if desired */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 1.5px; /* Adjust letter spacing */
+    transition: background-color 0.3s;}
+
+     .goBack:hover {  background-color: #0f1766;}
+  
+      
