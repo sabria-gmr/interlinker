@@ -1,0 +1,149 @@
+
+.stepContainer {
+  width: 55%;
+  height: 580px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+
+}
+
+.affichStep5 {
+  display: flex;
+  /* background: pink; */
+  width: 520px;
+  height: 520px;
+  /* Set a fixed height if needed */
+  display: flex;
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  margin-top: 5%;
+  margin-right: 60px;
+}
+
+#stepInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.affichStep5 .stepInfo h2 {
+
+  font-size: 1.4em;
+  margin-bottom: 50px;
+  display: flex;
+  margin-top: 100px;
+  margin-right: 150px;
+  font-weight: bold;
+  color: #2C3484;
+  letter-spacing: 1px;
+}
+
+
+.affichStep5 .stepInfo label {
+  display: flex;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+
+}
+
+.affichStep5 .stepInfo input {
+  display: flex;
+  margin-bottom: 20px;
+  width: 460px;
+  height: 35px;
+  border-radius: 8px;
+  border: solid 1px #f4f8f7;
+  background: #f4f8f7;
+
+}
+
+
+.affichStep5 .cv textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background: #f4f8f7;
+  border: 1px solid #ddd;
+  /* Add a border */
+  border-radius: 8px;
+  /* Add border radius for rounded corners */
+  resize: vertical;
+  /* Allow vertical resizing */
+}
+
+.affichStep5 .cv textarea:focus {
+  border: 1px solid rgba(44, 52, 132, 1);
+  /* Change the color as needed */
+  outline: none;
+}
+
+.buttonContainerStepFive {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* background-color:aqua; */
+  margin-top: 140px;
+  margin-left: -12px;
+  margin-right: -12px;
+  background-color: rgba(0, 255, 51, 0);
+}
+
+.buttonContainerStepFive .nextStep {
+  width: 130px;
+  height: 40px;
+  padding: 10px 10px 10px;
+  margin-top: 0px;
+  margin-left: -20px;
+  align-items: center;
+  border: none;
+  border-radius: 36px;
+  background-color: rgba(44, 52, 132, 1);
+  /* Button background color */
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  /* Adjust the font size as needed */
+  font-weight: bold;
+  /* Add font weight if desired */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+  letter-spacing: 1px;
+  /* Adjust letter spacing */
+  transition: background-color 0.3s;
+}
+
+.buttonContainerStepFive .nextStep:hover {
+  background-color: #0f1766;
+}
+
+
+.buttonContainerStepFive .goBack {
+  border: none;
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  padding: 10px 10px 10px;
+  margin-top: 0px;
+  align-items: center;
+  border: none;
+  border-radius: 36px;
+  font-size: 14px;
+  /* Adjust the font size as needed */
+  font-weight: 550;
+  /* Add font weight if desired */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+  letter-spacing: 1.5px;
+  /* Adjust letter spacing */
+  transition: background-color 0.3s;
+}
+
+.buttonContainerStepFive .goBack:hover {
+  background-color: #0f1766;
+}

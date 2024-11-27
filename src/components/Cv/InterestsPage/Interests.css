@@ -1,0 +1,296 @@
+.containers7 {
+  display: flex;
+  background-color: white;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.15);
+  width: 1000px;
+  height: 680px;
+}
+
+.cv-image {
+  width: 300px;
+  height: 480px;
+  border-top-right-radius: 10px;
+  margin-top: 50px;
+  margin-left: 65px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+
+}
+
+
+
+.circle_interests {
+  position: relative;
+  background-color: rgba(220, 20, 60, 0);
+  width: 20%;
+  color: white;
+  font-weight: 500;
+  height: 60%;
+  margin-top: 7%;
+  margin-left: -35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.circle_interests p {
+  margin-top: 8px;
+}
+
+.circle_interests .circle1 {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.circle_interests .circle2 {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+}
+
+.circle_interests .circle3 {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+}
+
+.circle_interests .circle4 {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.circle_interests .circle5 {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.circle_interests .circle6 {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.steps_interests {
+  position: relative;
+  background-color: rgba(255, 255, 0, 0);
+  /* background: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28%;
+  height: 56%;
+  margin-top: 100px;
+  gap: 10px;
+  margin-left: -8%;
+  font-size: 16px;
+
+}
+
+.steps_interests .step1 {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-bottom: 2px;
+  background-color: rgba(156, 55, 55, 0);
+
+}
+
+.steps_interests p {
+  width: 50px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  text-align: left;
+  font-size: 14px;
+  color: hsl(0, 0%, 80%);
+
+}
+
+.steps_interests .Span11 {
+  /* background-color: red;  */
+  display: flex;
+  color: white;
+  text-align: left;
+
+}
+
+.steps_interests .Span222 {
+
+  display: flex;
+  color: white;
+  text-align: left;
+
+}
+
+.steps_interests .Span333 {
+  display: flex;
+  color: white;
+  text-align: left;
+}
+
+.steps_interests .Span444 {
+
+  display: flex;
+  color: white;
+  text-align: left;
+}
+
+.steps_interests .Span555 {
+  display: flex;
+  color: white;
+  text-align: left;
+}
+
+.steps_interests .Span666 {
+  display: flex;
+  color: white;
+  text-align: left;
+}
+
+
+.stepContainer {
+  width: 55%;
+  height: 580px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+
+}
+
+.affichSteps_thank {
+  /* background:floralwhite; */
+  display: flex;
+  width: 600px;
+  height: 540px;
+  /* Set a fixed height if needed */
+  display: flex;
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  margin-top: 8%;
+  margin-right: 35px;
+}
+
+#stepInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.StepThankYouu h2 {
+
+  color: rgba(44, 52, 132, 1);
+  font-size: 1.3em;
+  margin-top: 2px;
+  margin: 10px;
+  letter-spacing: 0.3px;
+}
+
+.StepThankYouu h3 {
+  text-align: left;
+  margin-left: 50px;
+  color: rgba(44, 52, 132, 1);
+}
+
+.StepThankYouu p {
+  color: #444;
+  font-size: 1em;
+  padding: 8px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 0px;
+
+}
+
+.choix form {
+  font-size: 0.8em;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Two columns */
+  gap: 20px;
+  /* Adjust the gap between checkboxes */
+}
+
+.choix form div {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.thank_but {
+  /* background-color: rebeccapurple; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: 100px;
+}
+
+.thank_but .button_thank {
+  width: 130px;
+  padding: 10px 10px 10px;
+  margin-top: 0px;
+  border: none;
+  border-radius: 36px;
+  background-color: #0f1766;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+}
+
+.thank_but .button_thank:disabled {
+  background-color: rgba(44, 52, 132, 0.7);
+  cursor: not-allowed;
+}

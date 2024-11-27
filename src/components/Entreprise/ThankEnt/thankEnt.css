@@ -1,0 +1,231 @@
+.containers {
+  display: flex;
+  background-color: white;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px rgba(47, 18, 18, 0.101);
+  width: 1000px;
+  height: 680px;
+}
+
+.cv-image {
+  width: 300px;
+  height: 480px;
+  border-top-right-radius: 10px;
+  margin-top: 50px;
+  margin-left: 65px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+
+}
+
+
+
+.circle_entreprise {
+  position: relative;
+  background-color: rgba(220, 20, 60, 0);
+  width: 20%;
+  color: white;
+  font-weight: 500;
+  height: 50%;
+  margin-top: 7%;
+  margin-left: -35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.circle_entreprise p {
+  margin-top: 8px;
+}
+
+.circle_entreprise .circle7 {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0, 0);
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.circle_entreprise .circle8 {
+  width: 40px;
+  height: 40px;
+  margin-top: 0px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+}
+
+.steps_entreprise {
+  position: relative;
+  background-color: rgba(255, 255, 0, 0);
+  /* background:RED; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  height: 21%;
+  margin-top: 90px;
+  margin-left: -7%;
+  font-size: 16px;
+}
+
+
+.step1_entreprise {
+
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 3px;
+  padding-bottom: 2px;
+  /* background-color: rebeccapurple; */
+  background-color: rgba(156, 55, 55, 0);
+
+}
+
+.step2_entreprise {
+
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 4px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  /* background-color: rebeccapurple; */
+  background-color: rgba(156, 55, 55, 0);
+
+}
+
+.steps_entreprise p {
+  width: 50px;
+  margin-bottom: 2px;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 14px;
+  color: hsl(0, 0%, 80%);
+
+}
+
+.Span_entreprise {
+  display: flex;
+  color: white;
+  text-align: left;
+
+
+}
+
+.Span2_entreprise {
+
+  display: flex;
+  color: white;
+  text-align: left;
+
+}
+
+.stepContainer {
+  width: 55%;
+  height: 580px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+
+}
+
+.stepThankYou {
+  /* background: yellow; */
+  display: flex;
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  /* Set a fixed height if needed */
+  margin-top: 30%;
+  margin-left: 30px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  /* background-color: rgba(80, 152, 156, 0.1); */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+
+
+}
+
+.affichEns3 .stepInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.stepThankYou h2 {
+
+  color: rgba(44, 52, 132, 1);
+  font-size: 1.3em;
+  margin-top: 0px;
+  margin: 10px;
+
+}
+
+.stepThankYou p {
+  color: #444;
+  font-size: 1.1em;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+
+}
+
+
+.buttonContainer {
+  position: relative;
+  display: flex;
+  justify-content: center !important;
+
+  /* background: red; */
+  margin-left: 0px;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.startButton {
+  width: 130px;
+  padding: 10px 10px 10px;
+  margin-top: 0px;
+  align-items: center;
+  border: none;
+  border-radius: 36px;
+  background-color: rgba(44, 52, 132, 1);
+  /* Button background color */
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  /* Adjust the font size as needed */
+  font-weight: bold;
+  /* Add font weight if desired */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+  letter-spacing: 1px;
+  /* Adjust letter spacing */
+  transition: background-color 0.3s;
+}
+
+.startButton:hover {
+  background-color: #0f1766;
+}

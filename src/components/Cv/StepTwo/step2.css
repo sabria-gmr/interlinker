@@ -1,0 +1,206 @@
+
+.stepContainer {
+  width: 55%;
+  height: 580px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+
+}
+
+.affichStep2 {
+
+  width: 500px;
+  height: 520px;
+ 
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+ 
+  align-items: center;
+  margin-right: 100px;
+  margin-top: 5%;
+
+}
+
+
+#stepInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.affichStep2 .stepInfo h2 {
+  /* background: burlywood; */
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  display: flex;
+  margin-right: 150px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #2C3484;
+  letter-spacing: 1px;
+}
+
+
+.affichStep2 .stepInfo input {
+  width: 480PX;
+  height: 35px;
+  border-radius: 8px;
+  border: #f4f8f7;
+  background: #f4f8f7;
+  
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.affichStep2 .stepInfo label {
+  display: flex;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+
+}
+
+.affichStep2 .stepInfo select {
+  font-family: 'poppins';
+  height: 35px;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  background: #f4f8f7;
+  color: rgba(0, 0, 0, 0.51);
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.affichStep2 .check_box_two {
+  display: flex;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  justify-content: center;
+
+}
+
+
+
+.check_box_label {
+  position: relative;
+  margin-right: 8px;
+  /* Add some spacing between the label and the checkbox */
+  cursor: pointer;
+  display: flex;
+  line-height: 15px;
+  margin-left: 30px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+.cv .check_box+span {
+  font-size: 14px;
+  color: #333333;
+}
+
+.cv textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background: #f4f8f7;
+  border: 1px solid #f4f8f7;
+  /* Add a border */
+  border-radius: 5px;
+  /* Add border radius for rounded corners */
+  resize: vertical;
+  /* Allow vertical resizing */
+}
+
+
+
+
+.cv textarea:focus {
+  border: 1px solid rgba(44, 52, 132, 1);
+  /* Change the color as needed */
+  outline: none;
+}
+
+.affichStep2 .buttonContainerStepTwo {
+
+  position: relative;
+  display: flex;
+  justify-content: space-between !important;
+  flex-direction: row;
+  /* background: red; */
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-top: 5px;
+  height: 40px;
+
+
+}
+
+.buttonContainerStepTwo .nextStep {
+  width: 130px;
+  padding: 10px 10px 10px;
+  margin-top: 0px;
+  align-items: center;
+  border: none;
+  border-radius: 36px;
+  background-color: rgba(44, 52, 132, 1);
+  /* Button background color */
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  /* Adjust the font size as needed */
+  font-weight: bold;
+  /* Add font weight if desired */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+  letter-spacing: 1px;
+  /* Adjust letter spacing */
+  transition: background-color 0.3s;
+}
+
+.buttonContainerStepTwo .nextStep:hover {
+  background-color: #0f1766;
+}
+
+
+.buttonContainerStepTwo .goBack {
+  border: none;
+  cursor: pointer;
+  width: 130px;
+  padding: 10px 10px 10px;
+  margin-top: 0px;
+  align-items: center;
+  border: none;
+  border-radius: 36px;
+  background-color: rgba(44, 52, 132, 1);
+  /* Button background color */
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  /* Adjust the font size as needed */
+  font-weight: 550;
+  /* Add font weight if desired */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+  letter-spacing: 1.5px;
+  /* Adjust letter spacing */
+  transition: background-color 0.3s;
+}
+
+.buttonContainerStepTwo .goBack:hover {
+  background-color: #0f1766;
+}
